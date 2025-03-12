@@ -1,0 +1,5 @@
+procs:
+  nvim:
+    shell: "nvim ."
+  server:
+    shell: "pnpm vite dev -- --host 0.0.0.0"
