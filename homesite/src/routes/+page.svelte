@@ -1,12 +1,12 @@
 <script lang="ts">
-	import image from '$lib/images/yellow.png'
+	import image from '$lib/images/yellow.png';
+	import "../app.css";
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="Homepage" content="the homepage of grantomstone" />
-	<link href="/src/app.css" rel="stylesheet">
-	<img src={image} alt="background image" />
+	<!--img src={image} alt="background image" /-->
 </svelte:head>
 <div class="h-screen w-screen bg-cover bg-center content-center" style="background-image: url({image})">
 	<h1 class="text-7xl font-bold text-center text-amber-700">Grantomstone</h1>
