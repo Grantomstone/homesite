@@ -1,134 +1,65 @@
 export let projects = [
 	{
-		header: "header 1",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "Cybersecurity CTF Project",
+		description: "we created a cybersecurity challenge on portscanning that was part of the 2025 commonwealth cyberfusion competition. For the challenge, we created an LED array corresponding to the ports being scanned, with the right scans finishing the securoty competition",
+		points: [
+			"worked on server implementation of project",
+			"utilized linux, python, SSH and iptables for competition",
+			"developed software for electronics driver & communication with server",
+		],
 	},
 	{
-		header: "header 2",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "DNS Server",
+		description: "A C++ implementation of the DNS protocol to learn about networking in the language. Wrote a resolver that is compliant to the original specification of DNS.",
+		points: [
+			"compliant to RFC 1034 and RFC 1035",
+			"learn about the latest C++23 features",
+			"part of larger focus on learning about data transfer"
+		],
 	},
 	{
-		header: "header 3",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "SailBOT Design Team",
+		description: "part of a design team that make autonomous sailing boats to compete in edurance, speed, and autonomous vehicle challenges. Was the ECE-sub team lead for the team.",
+		points: [
+			"worked on integrating electrical and CS team's systems with mechanical teams designs",
+			"worked on electronics and formware design of the boat",
+			"participated in 2023 competition at Newburyport, MA"
+		],
 	},
 	{
-		header: "header 4",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "Homelab Server",
+		description: "a passion project where I operate my own google drive, netflix, Kindle, and spotify alternatives on my own hardware",
+		points: [
+			"learned about docker, networking, and deployment",
+			"learned about linux and server management",
+			"in use to avoid subscription fees"
+		],
 	},
 	{
-		header: "header 5",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "Java Cloud Development",
+		description: "development of various Jakarta EE applications with Authentication and Database features on Cloud services",
+		points: [
+			"learned Jakarta EE (Java Server application)",
+			"Deployed services on AWS cloud instances",
+			"Learned about Java application lifecycle development"
+		],
 	},
 	{
-		header: "header 6",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "Qt Desktop Application",
+		description: "Developed an application to track nutrition information for foodstuffs, rank them, and provide healthier alternatives if asked for",
+		points: [
+			"used Python and Qt for the application",
+			"used SCRUM methodology in teams of 4",
+			"learned about cross-platform app development"
+		],
 	},
 	{
-		header: "header 7",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
-	},
-	{
-		header: "header 9",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
-	},
-	{
-		header: "header 10",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
-	},
-	{
-		header: "header 11",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
-	},
-	{
-		header: "header 12",
-		paragraph: `Saepe dolor id sunt repudiandae et quam eligendi ullam. Earum eius quibusdam aliquid nemo. Quia odio enim corporis assumenda sint voluptatum.
-
-		Nulla beatae unde suscipit in maxime neque nihil cum. Eius perferendis placeat nam autem tempore. Ex aut cumque repellendus a. Et dolor et consectetur ducimus est sit. Ipsum quos ut ea fugiat dolorem quaerat exercitationem hic. Ratione similique aperiam voluptatibus accusantium totam optio est.
-
-		Fugit eum est cumque omnis quod unde aut. Recusandae ut dolores ut quidem sunt ut. Est consequuntur placeat consequatur culpa.
-
-		Esse in illum vel non voluptatum. Ea accusamus voluptatem dolor id earum ullam. Ipsam est asperiores aut quasi esse ut.
-
-		Voluptas consequuntur sint vitae hic commodi ullam. Voluptas excepturi nobis aut perspiciatis velit eveniet. Molestias fugit doloribus quo iure esse dolores beatae. Maiores ab id at.`
+		header: "Wallpaper Generator Application",
+		description: "a Python project inspired by 'Tapet' where I try to develop one of the wallpaper theme generators myself",
+		points: [
+			"learned image processing on python (openCV)",
+			"learned about image generation and image formats",
+			"I like not paying money"
+		],
 	},
 ]
