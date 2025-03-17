@@ -1,7 +1,7 @@
 export let projects = [
 	{
 		header: "Cybersecurity CTF Project",
-		description: "We created a cybersecurity challenge on portscanning that was part of the 2025 commonwealth cyberfusion competition. For the challenge, we created an LED array corresponding to the ports being scanned, with the right scans finishing the securoty competition",
+		description: "We created a cybersecurity challenge on portscanning that was part of the 2025 Commonwealth Cyberfusion Competition. For the challenge, we created an LED array corresponding to the ports being scanned, with the right scans finishing the security competition",
 		points: [
 			"worked on server implementation of project",
 			"utilized linux, python, SSH and iptables for competition",
@@ -13,7 +13,7 @@ export let projects = [
 		description: "A C++ implementation of the DNS protocol to learn about networking in the language. Wrote a resolver that is compliant to the original specification of DNS.",
 		points: [
 			"compliant to RFC 1034 and RFC 1035",
-			"learn about the latest C++23 features",
+			"learned about the latest C++23 features",
 			"part of larger focus on learning about data transfer"
 		],
 	},
@@ -30,7 +30,7 @@ export let projects = [
 		header: "Homelab Server",
 		description: "A passion project where I operate my own google drive, netflix, Kindle, and spotify alternatives on my own hardware",
 		points: [
-			"learned about docker, networking, and deployment",
+			"learned about docker, networking, and server deployment",
 			"learned about linux and server management",
 			"in use to avoid subscription fees"
 		],
