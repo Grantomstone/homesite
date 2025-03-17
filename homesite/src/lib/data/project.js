@@ -1,7 +1,7 @@
 export let projects = [
 	{
 		header: "Cybersecurity CTF Project",
-		description: "we created a cybersecurity challenge on portscanning that was part of the 2025 commonwealth cyberfusion competition. For the challenge, we created an LED array corresponding to the ports being scanned, with the right scans finishing the securoty competition",
+		description: "We created a cybersecurity challenge on portscanning that was part of the 2025 commonwealth cyberfusion competition. For the challenge, we created an LED array corresponding to the ports being scanned, with the right scans finishing the securoty competition",
 		points: [
 			"worked on server implementation of project",
 			"utilized linux, python, SSH and iptables for competition",
@@ -19,16 +19,16 @@ export let projects = [
 	},
 	{
 		header: "SailBOT Design Team",
-		description: "part of a design team that make autonomous sailing boats to compete in edurance, speed, and autonomous vehicle challenges. Was the ECE-sub team lead for the team.",
+		description: "Part of a design team that make autonomous sailing boats to compete in edurance, speed, and autonomous vehicle challenges. Was the ECE-sub team lead for the team.",
 		points: [
 			"worked on integrating electrical and CS team's systems with mechanical teams designs",
-			"worked on electronics and formware design of the boat",
+			"worked on electronics and firmware design of the boat",
 			"participated in 2023 competition at Newburyport, MA"
 		],
 	},
 	{
 		header: "Homelab Server",
-		description: "a passion project where I operate my own google drive, netflix, Kindle, and spotify alternatives on my own hardware",
+		description: "A passion project where I operate my own google drive, netflix, Kindle, and spotify alternatives on my own hardware",
 		points: [
 			"learned about docker, networking, and deployment",
 			"learned about linux and server management",
@@ -37,7 +37,7 @@ export let projects = [
 	},
 	{
 		header: "Java Cloud Development",
-		description: "development of various Jakarta EE applications with Authentication and Database features on Cloud services",
+		description: "Development of various Jakarta EE applications with Authentication and Database features on Cloud services",
 		points: [
 			"learned Jakarta EE (Java Server application)",
 			"Deployed services on AWS cloud instances",
@@ -55,7 +55,7 @@ export let projects = [
 	},
 	{
 		header: "Wallpaper Generator Application",
-		description: "a Python project inspired by 'Tapet' where I try to develop one of the wallpaper theme generators myself",
+		description: "A Python project inspired by 'Tapet' where I try to develop one of the wallpaper theme generators myself",
 		points: [
 			"learned image processing on python (openCV)",
 			"learned about image generation and image formats",
