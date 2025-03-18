@@ -3,3 +3,5 @@ procs:
     shell: "nvim ."
   server:
     shell: "pnpm vite dev -- --host 0.0.0.0"
+  git:
+    shell: "gitu"

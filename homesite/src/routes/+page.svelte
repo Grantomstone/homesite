@@ -1,8 +1,10 @@
 <script lang="ts">
-	import image from '$lib/images/yellow.png';
+	import image from '$lib/images/yellow.avif';
 	import  SmallText  from "$lib/components/SmallText.svelte";
 	import  { projects } from "$lib/data/project.js"
 	import "../app.css";
+	
+	export const prerender = true;
 </script>
 
 <svelte:head>
