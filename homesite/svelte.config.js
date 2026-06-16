@@ -13,7 +13,7 @@ const config = {
 			out: 'build'
 		}),
 		paths: {
-			base: process.env.NODE_ENV == 'production' ? '/grantomstone' : ''
+			base: process.env.GITHUB_ACTIONS ? '/grantomstone' : ''
 		}
 	},
 
