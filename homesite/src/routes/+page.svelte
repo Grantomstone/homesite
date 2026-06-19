@@ -1,5 +1,5 @@
 <script lang="ts">
-	import image from '$lib/images/yellow.avif';
+	import image from '$lib/images/yellow.webp';
 	import SmallText from '$lib/components/SmallText.svelte';
 	import { projects } from '$lib/data/project.js';
 	import '../app.css';
